@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website template using bootstrap</title>
+    <!-- fontawsome-cdn-links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- bootstrap-file-link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <!-- main-css-file-link -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body style="background: #f2f2f2;">
+
+    <header class="position-relative">
+        <div class="hero-and-header"
+            style="background: url(gallery/web-img/banner-bg.png); width: 100%; height: 100vh; background-position: center; background-size: cover; background-repeat: no-repeat;">
+            <div class="container">
+                <!-- top-heder -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="top-header bg-dark" style="clip-path: polygon(0 0,100% 0,96% 100%,3% 100%);">
+                            <ul class="list-inline text-center py-3">
+                                <li class="list-inline-item px-2"><a href="#"
+                                        class="text-decoration-none text-light">Best Sellers</a></li>
+                                <li class="list-inline-item px-2"><a href="#"
+                                        class="text-decoration-none text-light">Gift Ideas</a></li>
+                                <li class="list-inline-item px-2"><a href="#"
+                                        class="text-decoration-none text-light">New Releases</a></li>
+                                <li class="list-inline-item px-2"><a href="#"
+                                        class="text-decoration-none text-light">Today's Deals</a></li>
+                                <li class="list-inline-item px-2"><a href="#"
+                                        class="text-decoration-none text-light">Customer Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- web-logo -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="web-name-logo text-center py-2">
+                            <img src="gallery/web-img/logo.png" alt="photo">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menuber-header -->
+                <div class="row">
+
+
+                    <div class="col-lg-1">
+                        <div class="ham-bar">
+                            <a href="#" id="hamBar"><i class="fa-solid fa-3x fa-bars text-light"></i>
+
+                                <div class="more-menu bg-dark ">
+                                    <ul class="list-inline position-relative py-4">
+                                        <li class="py-2 px-3"><a href="#" class="text-decoration-none text-light">Your
+                                                Product Items</a></li>
+                                        <li class="py-2 px-3"><a href="#" class="text-decoration-none text-light">Your
+                                                Product Items</a></li>
+                                        <li class="py-2 px-3"><a href="#" class="text-decoration-none text-light">Your
+                                                Product Items</a></li>
+                                        <li class="py-2 px-3"><a href="#" class="text-decoration-none text-light">Your
+                                                Product Items</a></li>
+                                        <li class="py-2 px-3"><a href="#" class="text-decoration-none text-light">Your
+                                                Product Items</a></li>
+                                    </ul>
+
+                                    <div class="hide-menu">
+                                        <a href="#" id="hideMenu"> <span><i
+                                                    class="fa-solid fa-2x fa-xmark text-light"></i></span></a>
+                                    </div>
+                                </div>
+
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="product-catagory-menu py-1">
+                            <button class="bg-dark text-light py-2 px-3" id="catagoryBtn">All Catagory</button>
+
+                            <ul class="catagory-drop list-inline bg-light my-1 position-absolute">
+                                <li class="px-3 py-2"><a href="#" class="text-decoration-none text-dark">Your Product
+                                        1</a></li>
+                                <li class="px-3 py-2"><a href="#" class="text-decoration-none text-dark">Your Product
+                                        2</a></li>
+                                <li class="px-3 py-2"><a href="#" class="text-decoration-none text-dark">Your prodcut
+                                        3</a></li>
+                                <li class="px-3 py-2"><a href="#" class="text-decoration-none text-dark">Your prodcut
+                                        4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="search-bar my-2">
+                            <input type="text" style="width: 87%; outline: none; padding: 8px; border: none;">
+                            <span><a href="#"><i class="fa-solid  fa-magnifying-glass text-light"></i></a></span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="set-language py-1">
+                            <button class="bg-light  py-2 px-3" id="languageBtn" style="border: none;"><img
+                                    src="gallery/web-img/flag-uk.png" alt="uk-language">
+                                <span class="px-2">
+                                    English
+
+                                </span>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </button>
+
+                            <ul class="language-drop list-inline bg-light my-1 position-absolute">
+                                <li class="px-3 py-2"><a href="#" class="text-decoration-none text-dark"> <img
+                                            src="gallery/web-img/flag-france.png" alt="france-language"></a>
+
+                                    <span class="px-2"> French</a></span>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-1">
+                        <div class="cart py-2">
+                            <a href="#" class="text-decoration-none text-light"
+                                style="font-size: 17px; font-weight: 600;"><i
+                                    class="fa-solid fa-cart-shopping text-light"></i> CART </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-1">
+
+                        <div class="user py-2">
+                            <a href="#" class="text-decoration-none text-light"
+                                style="font-size: 17px; font-weight: 600;"><i class="fa-solid fa-user text-light"></i>
+                                USER </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- hero-text -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero-text text-center position-relative" style="margin-top: 75px;">
+                            <h3 class="fs-1 text-light fw-bold">GET START</h3>
+                            <h3 class="fs-1 text-light fw-bold py-4" style="padding-bottom: 55px !important;">YOUR
+                                FAVRIOT SHOPING</h3>
+                            <a href="#" class="buy-now">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="flash-sale ">
+
+        <div class="container">
+            <h4 class="text-body-tertiary py-5">FlashSale</h4>
+            <div class="row">
+                <div class="col-lg-2 my-2">
+                    <p class="fs-5 tomato">On Sale Now</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <span class="fs-5 fw-normal">Ending In</span>
+                    <span id="counter" class="bg-warning py-2 px-4 fs-4 text-light"></span>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-2 ">
+                    <div class="shop-more-btn text-end">
+                        <a href="#" class="btn"
+                            style="border: 1px solid tomato; padding: 10px 18px; color: tomato; font-size: 18px; font-weight: 600;">SHOP
+                            MORE</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/product-01.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/product-06.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/product-02.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/product-03.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/product-04.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/product-05.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="catagories">
+
+        <div class="container">
+            <h4 class="my-5">Catagories</h4>
+            <div class="row product-cata">
+
+
+                <div class="col-lg-12 d-flex justify-content-center align-item-center cata-row1">
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-01.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Trimmers,Groomers</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card ">
+                        <a href="#"> <img src="gallery/product-img/catagori-02.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>In,Ear Headphones</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-03.png" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Onions</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-04.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Potatoes</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-05.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Casual</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-06.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Casual</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-07.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p> Motion Controllers</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-08.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Hair Treatments</p>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="col-lg-12 d-flex justify-content-center align-item-center cata-row2">
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-09.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Crossbody bags</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card ">
+                        <a href="#"> <img src="gallery/product-img/catagory-11.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Air purifiers</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-13.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Belts</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-14.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Emergency & Safty Equepment</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-15.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Docks & Stands</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-16.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Measuring Tools</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-17.png" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Humdifiers</p>
+                        </a>
+                    </div>
+                    <div class="catagori-card">
+                        <a href="#"> <img src="gallery/product-img/catagori-05.jpg" alt="photo"
+                                class="catagori-photo-handle"></a>
+                        <a href="#" class="text-decoration-none text-dark">
+                            <p>Leveling</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div> <br><br><br>
+
+    </section>
+
+    <section class="local-product">
+
+        <div class="container">
+            <h4 class="py-2">Just For You</h4>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-1.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-2.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-3.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-4.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-5.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-6.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row py-5">
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-7.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-8.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-9.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-10.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-11.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-12.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-13.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-14.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-15.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-16.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-17.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-18.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row py-5">
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-1.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-2.jpg" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-3.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-4.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-5.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="product-card">
+                        <a href="#"> <img src="gallery/product-img/local-product/local-product-6.webp" alt="photo"
+                                class="product-photo-handle"></a>
+                        <div class="product-det">
+                            <p style="font-size: 14px;" class="px-1 fw-normal">Velvet/microfiber blanket soft and
+                                comfortable !</p>
+                            <h4 class="tomato px-1">৳ 465</h4>
+                            <del class="px-1 ">৳750</del> <span class="fw-bold">-14%</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="read-more-btn py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center read-more">
+                    <a href="#" class="text-decoration-none ">Load More</a>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <footer style="background: rgb(26, 25, 25);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center py-5">
+                    <img src="gallery/web-img/logo.png" alt="photo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-devloper">
+                        <h5 class="text-center text-light">Contact No: +8801569164500</h5>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-center text-light">Design By <a href="https://www.facebook.com/mrreja.me" class="text-decoration-none text-light">Rejaul Islam</a> All ©Copyright Are Rserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- jquary-link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- main-js-file-link -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

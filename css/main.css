@@ -1,0 +1,85 @@
+/* universal */
+.tomato {
+    color: tomato;
+}
+
+.product-photo-handle {
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.catagori-photo-handle{
+    width: 95px;
+    height: 95px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* usiversal */
+/* menubar */
+.more-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    display: none;
+}
+
+.hide-menu {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+/* header-area */
+.catagory-drop,
+.language-drop {
+    display: none;
+
+}
+
+.search-bar span {
+    background-color: tomato;
+    padding: 9.5px 12px;
+    margin-left: -3px;
+}
+
+/* buy-now-btn */
+.hero-text .buy-now {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(34, 33, 33);
+    padding: 12px 40px;
+    border-radius: 8px;
+
+}
+
+/* header-area */
+/* flash-on-sale area */
+.product-card:hover,.catagori-card:hover {
+    
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* flash-on-sale area */
+/* catagory-card */
+.catagories .product-cata{background: #fff; }
+.catagori-card{padding: 0px 18px;  }
+.catagori-card a{font-size: 14px;}
+.catagori-card a p{text-align: center; padding: 5px 0px;}
+/* catagory-card */
+/* read-more-btn */
+.read-more a{
+    border: 1px solid tomato;
+    padding: 10px 100px;
+    color: tomato;
+    font-size: 18px;
+    font-weight: 500;
+}
